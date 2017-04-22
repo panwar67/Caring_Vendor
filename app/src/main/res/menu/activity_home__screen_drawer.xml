@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_bookings"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Bookings" />
+
+        <item
+            android:id="@+id/nav_accept"
+            android:icon="@drawable/ic_event_available_black_24dp"
+            android:title="Accepted Bookings" />
+
+
+        <item
+            android:id="@+id/nav_completed"
+            android:icon="@drawable/ic_check_circle_black_24dp"
+            android:title="Completed Bookings" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_vpn_key_black_24dp"
+                android:title="Logout" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_touch_app_black_24dp"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_push"
+                android:icon="@drawable/ic_touch_app_black_24dp"
+                android:title="Help" />
+
+
+        </menu>
+    </item>
+
+</menu>
